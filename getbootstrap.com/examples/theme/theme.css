@@ -16,3 +16,20 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+.login-menu {
+    color: #fff;
+    margin-top: 15px;
+}
+
+div.page-header {
+    padding-bottom: 0px;
+}
+
+div.page-header > h2,h1 {
+    font-weight: bold;
+}
+
+span.span-right {
+    float: right;
+}
