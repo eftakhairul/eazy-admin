@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.login-menu {
+    color: #fff;
+    margin-top: 15px;
+}
+
+div.page-header {
+    padding-bottom: 0px;
+}
+
+div.page-header > h2,h1 {
+    font-weight: bold;
+}
+
+span.span-right {
+    float: right;
+}
+
+ul.pagination {
+    float: right;
+    margin: -10px 0;
+
+}
