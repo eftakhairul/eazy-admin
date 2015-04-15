@@ -37,6 +37,14 @@ div.page-header > h2,h1 {
     float: left;
 }
 
+.text-alignment-right {
+    text-align: right !important;
+}
+
+.text-alignment-left {
+    text-align: left !important;
+}
+
 .table td,th {
     text-align: center;
 }
