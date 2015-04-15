@@ -1,0 +1,15 @@
+/* TEAM */
+Author: Eftakhairul Islam
+Contact: eftakhairul [at] gmail [dot] com
+Twitter: eftakhairul
+From: Montreal, Canada
+Site: http://eftakhairul.com/
+
+
+
+/* SITE */
+Last update: 2015/04/16
+Language: English
+
+Doctype: HTML5
+Standards: HTML, CSS, JAVASCRIPT
