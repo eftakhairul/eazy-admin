@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="This is a simple admin theme based on twiiter bootstrap">
+    <meta name="description" content="This is a simplest responsive admin theme based on twitter bootstrap">
     <meta name="author" content="Eftakhairul Islam">
     <link rel="icon" href="favicon.ico">
 
@@ -16,13 +16,11 @@
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- Bootstrap Date time csss -->
+    <!-- Bootstrap Datetime css -->
     <link href="./dist/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
-
-
-      <!-- Custom styles for this template -->
-      <link href="./dist/css/theme.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./dist/css/theme.css" rel="stylesheet">
 
 
 
@@ -40,6 +38,12 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="index.html#">Eazy Admin</a>
         </div>
 
@@ -73,12 +77,6 @@
 
 
     <div class="container theme-showcase" role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Theme example</h1>
-        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
-      </div>
 
       <div class="page-header">
           <span class="position-right"><button class="btn btn-sm btn-primary" type="button">Add New User</button></span>
@@ -242,67 +240,6 @@
 
 
       <div class="page-header">
-        <h1>Labels</h1>
-      </div>
-      <h1>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </h1>
-      <h2>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </h2>
-      <h3>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </h3>
-      <h4>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </h4>
-      <h5>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </h5>
-      <h6>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </h6>
-      <p>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-      </p>
-
-
-      <div class="page-header">
         <h1>Badges</h1>
       </div>
       <p>
@@ -315,19 +252,6 @@
       </ul>
 
 
-      <div class="page-header">
-        <h1>Dropdown menus</h1>
-      </div>
-      <div class="dropdown theme-dropdown clearfix">
-        <a id="dropdownMenu1" href="index.html#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-          <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">Action</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">Another action</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">Something else here</a></li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">Separated link</a></li>
-        </ul>
-      </div>
 
 
       <div class="page-header">
@@ -338,82 +262,6 @@
         <li role="presentation"><a href="index.html#">Profile</a></li>
         <li role="presentation"><a href="index.html#">Messages</a></li>
       </ul>
-      <ul class="nav nav-pills" role="tablist">
-        <li role="presentation" class="active"><a href="index.html#">Home</a></li>
-        <li role="presentation"><a href="index.html#">Profile</a></li>
-        <li role="presentation"><a href="index.html#">Messages</a></li>
-      </ul>
-
-
-      <div class="page-header">
-        <h1>Navbars</h1>
-      </div>
-
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html#">Project name</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html#">Home</a></li>
-              <li><a href="index.html#about">About</a></li>
-              <li><a href="index.html#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="index.html#">Action</a></li>
-                  <li><a href="index.html#">Another action</a></li>
-                  <li><a href="index.html#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="index.html#">Separated link</a></li>
-                  <li><a href="index.html#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
-
-      <nav class="navbar navbar-inverse">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html#">Project name</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html#">Home</a></li>
-              <li><a href="index.html#about">About</a></li>
-              <li><a href="index.html#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="index.html#">Action</a></li>
-                  <li><a href="index.html#">Another action</a></li>
-                  <li><a href="index.html#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="index.html#">Separated link</a></li>
-                  <li><a href="index.html#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </nav>
 
 
       <div class="page-header">
