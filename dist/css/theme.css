@@ -60,7 +60,7 @@ ul.pagination {
 }
 
 .alert-dismissible .close {
-    right: -2px;
+    right: 5px;
 }
 
 .footer{
@@ -74,4 +74,12 @@ ul.pagination {
 .footer div.container {
     text-align: left;
     padding: 8px;
+}
+
+div.date > input {
+    margin-left: 12px;
+}
+
+.glyphicon {
+    left: 5px;
 }
