@@ -16,6 +16,9 @@
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Bootstrap Date time csss -->
+    <link href="./dist/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
 
 
       <!-- Custom styles for this template -->
@@ -195,6 +198,17 @@
                 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
               </div>
             </div>
+
+            <div class="form-group">
+              <label for="inputDateOfBirth3" class="text-alignment-left col-sm-2 control-label text-alignment-left">Birth Date</label>
+              <div class='input-group date col-sm-3' id='datetimepicker5'>
+                <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+              </div>
+            </div>
+
             <div class="form-group">
               <div class="col-sm-offset-2 col-sm-10">
                 <div class="checkbox">
@@ -210,10 +224,6 @@
               </div>
             </div>
           </form>
-
-
-
-
 
         </div>
 
@@ -603,9 +613,29 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./dist/js/moment.js"></script>
+    <script src="./dist/js/collapse.js"></script>
+    <script src="./dist/js/transition.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap-datetimepicker.min.js"></script>
+
+
     <script src="./assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker5').datetimepicker({
+          defaultDate: "11/1/2013",
+          disabledDates: [
+            moment("12/25/2013"),
+            new Date(2013, 11 - 1, 21),
+            "11/22/2013 00:53"
+          ]
+        });
+      });
+    </script>
   </body>
 </html>
